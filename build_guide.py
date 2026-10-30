@@ -93,6 +93,8 @@ def pick(chans, label, names_by_id):
     for c in chans:
         if c["match"]:
             continue
+        if c["pluto"] and label != "pluto":
+            continue        # a Pluto stream has its own lineup: only Pluto's listings are right for it
         cid = None
         if c["gid"] and c["gid"] in names_by_id:
             cid = c["gid"]
@@ -156,7 +158,7 @@ def main():
     # A second feed of a channel shares the first one's listings.
     for c in chans:
         if not c["progs"]:
-            twin = next((o for o in chans if o is not c and o["progs"] and keys(c["plname"]) and keys(o["plname"])[:1] == keys(c["plname"])[:1]), None)
+            twin = next((o for o in chans if o is not c and o["progs"] and not c["pluto"] and not o["pluto"] and keys(c["plname"]) and keys(o["plname"])[:1] == keys(c["plname"])[:1]), None)
             if twin:
                 c["progs"] = list(twin["progs"])
                 c["match"] = ("same as", twin["num"])
