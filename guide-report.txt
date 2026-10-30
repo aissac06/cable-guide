@@ -62,7 +62,7 @@
   77  Discovery Channel            us: Discovery.Channel.HD.us2   now: Rocky Mountain Wreckers
   78  Animal Planet                us: Animal.Planet.HD.us2   now: Tanked
   79  History                      us: History.HD.us2   now: The UnBelievable With Dan Aykroyd
-  80  History (2nd feed)           pluto: 5a4d35dfa5c02e717a234f86   now: Forbidden History
+  80  History (2nd feed)           pluto: 5a4d35dfa5c02e717a234f86   now: Becoming Evil: The Mafia
   81  National Geographic          us: National.Geographic.HD.us2   now: Strangest Things
   82  National Geographic East     us: National.Geographic.HD.us2   now: Strangest Things
   83  Nat Geo Wild                 us: National.Geographic.Wild.HD.us2   now: The Hidden Kingdoms of China
@@ -73,7 +73,7 @@
   88  Cooking Channel              us: Cooking.Channel.HD.us2   now: Food Paradise
   89  BBC Food                     NOT FOUND
   90  Nickelodeon                  pluto: 5ca673e0d0bd6c2689c94ce3   now: The Loud House
-  91  Nickelodeon (2nd feed)       us: Nickelodeon.HD.us2   now: PAW Patrol
+  91  Nickelodeon (2nd feed)       NOT FOUND
   92  Nick Jr.                     pluto: 5ca6748a37b88b269472dad9   now: Bubble Guppies
   93  Nicktoons                    us: Nicktoons.us2   now: SpongeBob SquarePants
   94  TeenNick                     us: Teen.Nick.us2   now: The Thundermans: Undercover
