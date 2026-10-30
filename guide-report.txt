@@ -15,7 +15,7 @@
   30  The Weather Channel          us: The.Weather.Channel.HD.us2   now: The Weather Channel LIVE
   31  CNN                          us: CNN.HD.us2   now: Live: CNN News Central
   32  CNN HD                       us: CNN.HD.us2   now: Live: CNN News Central
-  33  CNN Originals                pluto: 66e0b4536ad04d0008fff4b2   now: How It Really Happened
+  33  CNN Originals                pluto: 66e0b4536ad04d0008fff4b2   now: Forensic Files II
   34  Fox News                     us: Fox.News.Channel.HD.us2   now: Live: America Reports
   35  CNBC                         us: CNBC.HD.us2   now: Live: Power Lunch
   36  Fox Business                 us: Fox.Business.HD.us2   now: Live: Making Money With Charles Payne
@@ -73,7 +73,7 @@
   88  Cooking Channel              us: Cooking.Channel.HD.us2   now: Food Paradise
   89  BBC Food                     NOT FOUND
   90  Nickelodeon                  pluto: 5ca673e0d0bd6c2689c94ce3   now: The Loud House
-  91  Nickelodeon (2nd feed)       NOT FOUND
+  91  Nickelodeon (2nd feed)       us: Nickelodeon.HD.us2   now: PAW Patrol
   92  Nick Jr.                     pluto: 5ca6748a37b88b269472dad9   now: Bubble Guppies
   93  Nicktoons                    us: Nicktoons.us2   now: SpongeBob SquarePants
   94  TeenNick                     us: Teen.Nick.us2   now: The Thundermans: Undercover
