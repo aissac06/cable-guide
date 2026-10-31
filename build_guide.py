@@ -21,7 +21,7 @@ SOURCES = [   # (label, url, used for name matching?)
     ("roku",      "https://i.mjh.nz/Roku/all.xml.gz"),
     ("pluto",     "https://i.mjh.nz/PlutoTV/us.xml.gz"),
 ]
-BACK, AHEAD, MAX_PER_CH = 2 * 3600, 12 * 3600, 10
+BACK, AHEAD, MAX_PER_CH = 2 * 3600, 12 * 3600, 30
 DROP = {"hd", "east", "the"}
 LOOSE = {"channel", "network", "tv", "west", "pacific", "entertainment", "television"}
 ALIASES = {"lifetimemovies": ["lmn", "lifetimemovienetwork"], "e": ["eentertainment", "eentertainmenttelevision"],
