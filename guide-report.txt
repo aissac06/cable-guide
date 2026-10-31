@@ -1,54 +1,54 @@
-   2  ABC 2 Baltimore              us-locals: WMAR-DT.us_locals1   now: General Hospital
-   5  FOX 5 DC                     us-locals: WTTG-DT.us_locals1   now: The Take at 2
+   2  ABC 2 Baltimore              us-locals: WMAR-DT.us_locals1   now: The Dropout -- Who Is Elizabeth Holmes?
+   5  FOX 5 DC                     us-locals: WTTG-DT.us_locals1   now: Best Medicine
    6  Montgomery Channel           NOT FOUND
-   7  ABC 7 DC                     us-locals: WJLA-DT.us_locals1   now: General Hospital
-  11  NBC 11 Baltimore             us-locals: WBAL-DT.us_locals1   now: The Jennifer Hudson Show
+   7  ABC 7 DC                     us-locals: WJLA-DT.us_locals1   now: The Dropout -- Who Is Elizabeth Holmes?
+  11  NBC 11 Baltimore             us-locals: WBAL-DT.us_locals1   now: Newlyweds
   13  CBS News Baltimore           pluto: 60f75919718aed0007250d7a   now: Latest Baltimore News & Headlines
   16  DC Network                   NOT FOUND
   19  Access 19                    NOT FOUND
-  22  Create (MPT)                 us: Create.us2   now: Best of Sewing With Nancy
+  22  Create (MPT)                 us: Create.us2   now: Cook's Country
   23  ION Plus                     NOT FOUND
   24  Grit Xtra                    NOT FOUND
-  25  Bounce XL                    pluto: 6176fd25e83a5f0007a464c9   now: In the Heat of the Night
-  27  Charge!                      us: CHARGE!.us2   now: CSI: Miami
-  28  Comet                        us: Comet.us2   now: Night of the Demons
-  30  The Weather Channel          us: The.Weather.Channel.HD.us2   now: The Weather Channel LIVE
-  31  CNN                          us: CNN.HD.us2   now: Live: CNN News Central
-  32  CNN HD                       us: CNN.HD.us2   now: Live: CNN News Central
-  33  CNN Originals                pluto: 66e0b4536ad04d0008fff4b2   now: Forensic Files II
-  34  Fox News                     us: Fox.News.Channel.HD.us2   now: Live: America Reports
-  35  CNBC                         us: CNBC.HD.us2   now: Live: Power Lunch
-  36  Fox Business                 us: Fox.Business.HD.us2   now: Live: Making Money With Charles Payne
-  37  ABC News Live                us: ABC.News.Live.us2   now: ABC News Live
-  38  NBC News NOW                 pluto: 5df97894467dfa00091c873c   now: NBC News Daily With Kate Snow and Zinhle Essamuah
-  39  CBS News 24/7                pluto: 5a6b92f6e22a617379789618   now: CBS News 24/7
-  40  Scripps News                 us: Scripps.News.us2   now: Live: Scripps News On The Scene
-  41  Newsmax                      us: Newsmax.TV.HD.us2   now: Live: American Agenda
+  25  Bounce XL                    pluto: 6176fd25e83a5f0007a464c9   now: Obsessed
+  27  Charge!                      us: CHARGE!.us2   now: Criminal Minds
+  28  Comet                        us: Comet.us2   now: The Terminator
+  30  The Weather Channel          us: The.Weather.Channel.HD.us2   now: Weather Unfiltered
+  31  CNN                          us: CNN.HD.us2   now: Live: Countdown to Election Night
+  32  CNN HD                       us: CNN.HD.us2   now: Live: Countdown to Election Night
+  33  CNN Originals                pluto: 66e0b4536ad04d0008fff4b2   now: Crimes Of The Century
+  34  Fox News                     us: Fox.News.Channel.HD.us2   now: Live: Jesse Watters Primetime
+  35  CNBC                         us: CNBC.HD.us2   now: Shark Tank
+  36  Fox Business                 us: Fox.Business.HD.us2   now: Cops
+  37  ABC News Live                us: ABC.News.Live.us2   now: Burden of Proof
+  38  NBC News NOW                 pluto: 5df97894467dfa00091c873c   now: Stay Tuned NOW With Gadi Schwartz
+  39  CBS News 24/7                pluto: 5a6b92f6e22a617379789618   now: 24/7 Primetime
+  40  Scripps News                 us: Scripps.News.us2   now: Live: CSI on Trial
+  41  Newsmax                      us: Newsmax.TV.HD.us2   now: Live: Finnerty
   42  Bloomberg Originals          NOT FOUND
   43  USA Today                    NOT FOUND
-  44  Court TV                     us: Court.TV.us2   now: Court TV Live
-  45  FOX 45 Baltimore             us-locals: WBFF-DT.us_locals1   now: Hot Bench
-  46  USA Network                  us: USA.Network.HD.us2   now: Live: Horse Racing
-  47  TBS                          us: TBS.HD.us2   now: Friends
-  48  TBS West                     us: TBS.HD.(Pacific).us2   now: Friends
-  49  TNT                          us: TNT.HD.us2   now: Jurassic World
-  50  TNT West                     us: TNT.HD.(Pacific).us2   now: FBI
+  44  Court TV                     us: Court.TV.us2   now: VPI: Vinnie Politan Investigates
+  45  FOX 45 Baltimore             us-locals: WBFF-DT.us_locals1   now: Best Medicine
+  46  USA Network                  us: USA.Network.HD.us2   now: Live: WWE Friday Night SmackDown
+  47  TBS                          us: TBS.HD.us2   now: Jaws
+  48  TBS West                     us: TBS.HD.(Pacific).us2   now: The Big Bang Theory
+  49  TNT                          us: TNT.HD.us2   now: Jurassic World Dominion
+  50  TNT West                     us: TNT.HD.(Pacific).us2   now: Jurassic World: Fallen Kingdom
   51  TNT International            NOT FOUND
-  52  FX                           us: FX.HD.us2   now: Beetlejuice
-  53  SYFY                         us: Syfy.HD.us2   now: The Crow
-  54  AMC                          us: AMC.HD.us2   now: Halloween
-  55  Stories by AMC               us: Stories.by.AMC.us2   now: Tales From the Crypt
-  56  A&E                          us: A.and.E.HD.East.us2   now: Parent Wars
-  57  Bravo                        us: Bravo.HD.us2   now: Below Deck
-  58  E!                           us: E!.Entertainment.Television.HD.us2   now: Lisa Frankenstein
-  59  Lifetime Movies              us: LMN.HD.us2   now: A Party Gone Wrong
+  52  FX                           us: FX.HD.us2   now: Hocus Pocus
+  53  SYFY                         us: Syfy.HD.us2   now: Halloween
+  54  AMC                          us: AMC.HD.us2   now: Halloween 5: The Revenge of Michael Myers
+  55  Stories by AMC               us: Stories.by.AMC.us2   now: Creepshow
+  56  A&E                          us: A.and.E.HD.East.us2   now: The First 48
+  57  Bravo                        us: Bravo.HD.us2   now: Blade II
+  58  E!                           us: E!.Entertainment.Television.HD.us2   now: Matilda
+  59  Lifetime Movies              us: LMN.HD.us2   now: A Doctor to Die For: The Sarah Harris Story
   60  Hallmark Movies & More       pluto: 628e685ba3811100070551a8   now: Good Witch
-  61  OWN                          us: Oprah.Winfrey.Network.HD.us2   now: America's Funniest Home Videos
-  62  Paramount Network            us: Paramount.Network.HD.us2   now: Bar Rescue
-  63  Comedy Central               pluto: 5ca671f215a62078d2ec0abf   now: Beavis and Butt-Head
-  64  TV Land Sitcoms              pluto: 5c2d64ffbdf11b71587184b8   now: The Exes
-  65  BET                          pluto: 5ca670f6593a5d78f0e85aed   now: One On One
-  66  MTV                          pluto: 5ca672f515a62078d2ec0ad2   now: 16 and Pregnant
+  61  OWN                          us: Oprah.Winfrey.Network.HD.us2   now: Ready to Love
+  62  Paramount Network            us: Paramount.Network.HD.us2   now: Raiders of the Lost Ark
+  63  Comedy Central               pluto: 5ca671f215a62078d2ec0abf   now: South Park
+  64  TV Land Sitcoms              pluto: 5c2d64ffbdf11b71587184b8   now: The New Adventures of Old Christine
+  65  BET                          pluto: 5ca670f6593a5d78f0e85aed   now: Girlfriends
+  66  MTV                          pluto: 5ca672f515a62078d2ec0ad2   now: The Hills
   67  MTV (2nd feed)               NOT FOUND
   68  MTV2                         NOT FOUND
   69  MTV Live                     us: MTVLIVE.us2   now: Epic.Awesome.Videos
@@ -56,56 +56,56 @@
   71  CMT                          pluto: 5f68f53eb1e5800007390bf8   now: CMT Equal Play
   72  Game Show Central            pluto: 5e54187aae660e00093561d6   now: America Says
   73  Reelz                        NOT FOUND
-  74  TCM                          us: Turner.Classic.Movies.HD.us2   now: Mad Love
-  75  Paramount Movie Channel      pluto: 5cb0cae7a461406ffe3f5213   now: The Saint
-  76  Paramount+ Picks             pluto: 5ff8c708653d080007361b14   now: Hot in Cleveland
-  77  Discovery Channel            us: Discovery.Channel.HD.us2   now: Rocky Mountain Wreckers
-  78  Animal Planet                us: Animal.Planet.HD.us2   now: Tanked
+  74  TCM                          us: Turner.Classic.Movies.HD.us2   now: Vincent Price: What Keeps Us Alive
+  75  Paramount Movie Channel      pluto: 5cb0cae7a461406ffe3f5213   now: Raiders of the Lost Ark
+  76  Paramount+ Picks             pluto: 5ff8c708653d080007361b14   now: Hawaii Five-0 (Classic)
+  77  Discovery Channel            us: Discovery.Channel.HD.us2   now: Gold Rush
+  78  Animal Planet                us: Animal.Planet.HD.us2   now: Treehouse Masters
   79  History                      us: History.HD.us2   now: The UnBelievable With Dan Aykroyd
-  80  History (2nd feed)           pluto: 5a4d35dfa5c02e717a234f86   now: Becoming Evil: The Mafia
-  81  National Geographic          us: National.Geographic.HD.us2   now: Strangest Things
-  82  National Geographic East     us: National.Geographic.HD.us2   now: Strangest Things
-  83  Nat Geo Wild                 us: National.Geographic.Wild.HD.us2   now: The Hidden Kingdoms of China
-  84  Smithsonian Channel          pluto: 5f21ea08007a49000762d349   now: Carriers At War
+  80  History (2nd feed)           pluto: 5a4d35dfa5c02e717a234f86   now: The Egyptians
+  81  National Geographic          us: National.Geographic.HD.us2   now: Monsters: The Truth Behind the Myths
+  82  National Geographic East     us: National.Geographic.HD.us2   now: Monsters: The Truth Behind the Myths
+  83  Nat Geo Wild                 us: National.Geographic.Wild.HD.us2   now: The Incredible Dr. Pol
+  84  Smithsonian Channel          pluto: 5f21ea08007a49000762d349   now: America in Color
   85  Investigation Discovery      us: Investigation.Discovery.HD.us2   now: See No Evil
   86  HGTV                         NOT FOUND
   87  Food Network                 us: Food.Network.HD.us2   now: Diners, Drive-Ins and Dives
-  88  Cooking Channel              us: Cooking.Channel.HD.us2   now: Food Paradise
+  88  Cooking Channel              us: Cooking.Channel.HD.us2   now: Carnival Eats
   89  BBC Food                     NOT FOUND
-  90  Nickelodeon                  pluto: 5ca673e0d0bd6c2689c94ce3   now: The Loud House
-  91  Nickelodeon (2nd feed)       us: Nickelodeon.HD.us2   now: PAW Patrol
-  92  Nick Jr.                     pluto: 5ca6748a37b88b269472dad9   now: Bubble Guppies
+  90  Nickelodeon                  pluto: 5ca673e0d0bd6c2689c94ce3   now: The Fairly OddParents
+  91  Nickelodeon (2nd feed)       us: Nickelodeon.HD.us2   now: The Addams Family
+  92  Nick Jr.                     pluto: 5ca6748a37b88b269472dad9   now: Rubble & Crew
   93  Nicktoons                    us: Nicktoons.us2   now: SpongeBob SquarePants
   94  TeenNick                     us: Teen.Nick.us2   now: The Thundermans: Undercover
-  95  Disney Junior                us: Disney.Junior.HD.us2   now: Bluey
-  96  Disney XD                    us: Disney.XD.HD.us2   now: Pokémon the Series: Adventures in the Orange Islands
-  97  Cartoon Network              us: Cartoon.Network.HD.us2   now: Over the Garden Wall
-  98  Boomerang                    us: Boomerang.us2   now: Looney Tunes
- 100  ESPN                         us: ESPN.HD.us2   now: Live: Bussin' & Pate On Campus
- 101  ESPN (2nd feed)              us: ESPN.HD.us2   now: Live: Bussin' & Pate On Campus
- 102  ESPN2                        us: ESPN2.HD.us2   now: Fantasy Focus
- 103  ESPNU                        us: ESPNU.HD.us2   now: Saban
+  95  Disney Junior                us: Disney.Junior.HD.us2   now: Spidey and the Avengers: Halloween Team-Up!
+  96  Disney XD                    us: Disney.XD.HD.us2   now: Hannah Montana
+  97  Cartoon Network              us: Cartoon.Network.HD.us2   now: Family Guy
+  98  Boomerang                    us: Boomerang.us2   now: Codename: Kids Next Door
+ 100  ESPN                         us: ESPN.HD.us2   now: Live: College Football
+ 101  ESPN (2nd feed)              us: ESPN.HD.us2   now: Live: College Football
+ 102  ESPN2                        us: ESPN2.HD.us2   now: Live: College Football
+ 103  ESPNU                        us: ESPNU.HD.us2   now: Live: College Football
  104  NFL Network                  us: NFL.Network.HD.us2   now: NFL Football
- 105  NFL Channel                  pluto: 5ced7d5df64be98e07ed47b6   now: NFL Game Re-Airs
- 106  NBA TV                       us: NBA.TV.HD.us2   now: Basketcast
- 107  MLB                          pluto: 5e66968a70f34c0007d050be   now: Series Standouts
- 108  NHL Network                  us: NHL.Network.HD.us2   now: NHL Hockey
- 109  Big Ten Network              us: Big.Ten.Network.HD.us2   now: Wisconsin Football Classic
- 110  SEC Network                  us: SEC.Network.HD.us2   now: SEC Inside
- 111  Tennis Channel               us: Tennis.Channel.HD.us2   now: Center Court Live
- 112  Outdoor Channel              us: Outdoor.Channel.HD.us2   now: Drop Zone
- 120  QVC                          us: QVC.HD.us2   now: Live: Must-Have Gifts
- 121  HSN                          pluto: 5f8a02476b72230007e62b7d   now: Tower Hill by Christie Brinkley Fashions
- 122  TBN                          us: Trinity.Broadcasting.Network.HD.us2   now: Andrew Wommack: Gospel Truth
+ 105  NFL Channel                  pluto: 5ced7d5df64be98e07ed47b6   now: Game of the Week
+ 106  NBA TV                       us: NBA.TV.HD.us2   now: Live: The Association
+ 107  MLB                          pluto: 5e66968a70f34c0007d050be   now: MLB Network Presents
+ 108  NHL Network                  us: NHL.Network.HD.us2   now: Live: Women's Hockey
+ 109  Big Ten Network              us: Big.Ten.Network.HD.us2   now: Live: Men's College Soccer
+ 110  SEC Network                  us: SEC.Network.HD.us2   now: Live: Women's College Volleyball
+ 111  Tennis Channel               us: Tennis.Channel.HD.us2   now: Center Court
+ 112  Outdoor Channel              us: Outdoor.Channel.HD.us2   now: Wardens
+ 120  QVC                          us: QVC.HD.us2   now: Live: Over 50 & Fabulous
+ 121  HSN                          pluto: 5f8a02476b72230007e62b7d   now: DG2 Holiday Fashion Fridays with Sarah & Sam
+ 122  TBN                          us: Trinity.Broadcasting.Network.HD.us2   now: God With Us: Rethinking The End By Going Back to the Beginning
  123  EWTN                         NOT FOUND
  124  EWTN en Español              NOT FOUND
- 200  HBO                          us: HBO.East.us2   now: Youth
- 201  HBO Hits                     us: HBO.Hits.us2   now: The Firm
- 210  Cinemax West                 us: Cinemax.HD.(Pacific).us2   now: Leave No Trace
- 211  Cinemax Hits                 us: Cinemax.Hits.us2   now: Ocean's 11
- 212  Cinemax Classics             us: Cinemax.Classics.us2   now: Switch
- 220  Showtime Family Zone         us: Showtime.Familyzone.HD.us2   now: Grumpy Old Men
- 230  Starz West                   us: Starz.(Pacific).us2   now: Tip Toe
- 231  Starz Cinema                 us: Starz.Cinema.HD.us2   now: Catching Dust
- 232  Starz Comedy                 us: Starz.Comedy.HD.us2   now: Wingman Inc.
+ 200  HBO                          us: HBO.East.us2   now: The Post
+ 201  HBO Hits                     us: HBO.Hits.us2   now: The Departed
+ 210  Cinemax West                 us: Cinemax.HD.(Pacific).us2   now: Tomb Raider
+ 211  Cinemax Hits                 us: Cinemax.Hits.us2   now: Ocean's Eight
+ 212  Cinemax Classics             us: Cinemax.Classics.us2   now: Carrie
+ 220  Showtime Family Zone         us: Showtime.Familyzone.HD.us2   now: The Monster Squad
+ 230  Starz West                   us: Starz.HD.(Pacific).us2   now: Michael
+ 231  Starz Cinema                 us: Starz.Cinema.HD.us2   now: The Limey
+ 232  Starz Comedy                 us: Starz.Comedy.HD.us2   now: How to Lose a Guy in 10 Days
  233  Starz Kids & Family          NOT FOUND
