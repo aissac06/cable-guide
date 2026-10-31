@@ -1,4 +1,4 @@
-30#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Build guide.json for the Cable apps: what's on now and next on each channel.
 
 Reads channels.txt ("number|name shown|playlist name|pluto id|guide id"), downloads free
@@ -10,6 +10,8 @@ Only the Python standard library is used.
 import gzip, json, re, sys, time, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
+from html import unescape
+from zoneinfo import ZoneInfo
 
 SOURCES = [   # (label, url, used for name matching?)
     ("us-locals", "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz"),
@@ -77,6 +79,41 @@ def fetch(url):
     if data[:2] == b"\x1f\x8b":
         data = gzip.decompress(data)
     return data
+
+def tvinsider(slug, now):
+    """Schedule from tvinsider.com/network/<slug>/schedule/ for channels the XMLTV files don't have.
+    The page lists each day under <h2 id="MM-DD-YYYY" class="date"> with Eastern start times."""
+    url = f"https://www.tvinsider.com/network/{slug}/schedule/"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                                   "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            page = r.read().decode("utf-8", "replace")
+    except Exception as e:
+        print(f"  tvinsider {slug}: could not download ({e})")
+        return []
+    return parse_tvinsider(page, now)
+
+def parse_tvinsider(page, now):
+    tz = ZoneInfo("America/New_York")
+    out = []
+    days = re.split(r'<h2 id="(\d\d)-(\d\d)-(\d{4})" class="date">', page)
+    for k in range(1, len(days) - 3, 4):
+        mo, dd, yy, body = int(days[k]), int(days[k + 1]), int(days[k + 2]), days[k + 3]
+        for chunk in body.split('<a class="show-upcoming')[1:]:
+            t = re.search(r"<time>(\d{1,2}):(\d\d) (AM|PM)</time>", chunk)
+            ti = re.search(r"<h3>(.*?)</h3>", chunk, re.S)
+            if not t or not ti:
+                continue
+            ep = re.search(r"<h5>(.*?)</h5>", chunk, re.S)
+            hh = int(t.group(1)) % 12 + (12 if t.group(3) == "PM" else 0)
+            start = int(datetime(yy, mo, dd, hh, int(t.group(2)), tzinfo=tz).timestamp())
+            out.append([start, 0, unescape(ti.group(1)).strip(), unescape(ep.group(1)).strip() if ep else ""])
+    out.sort()
+    for i in range(len(out)):
+        out[i][1] = out[i + 1][0] if i + 1 < len(out) else out[i][0] + 1800
+    lo, hi = now - BACK, now + AHEAD
+    return [p for p in out if p[1] > lo and p[0] < hi]
 
 def pick(chans, label, names_by_id):
     """Decide which of this source's channel ids we want, for channels still unmatched."""
@@ -155,6 +192,14 @@ def main():
     chans = load_channels(sys.argv[1] if len(sys.argv) > 1 else "channels.txt")
     now = int(time.time())
     print(f"{len(chans)} channels to find")
+    # Channels marked "tvinsider:<slug>" in channels.txt take their listings from tvinsider.com.
+    for c in chans:
+        if c["gid"].lower().startswith("tvinsider:"):
+            slug = c["gid"].split(":", 1)[1].strip()
+            c["progs"] = tvinsider(slug, now)
+            if c["progs"]:
+                c["match"] = ("tvinsider", slug)
+            print(f"  tvinsider {slug}: {len(c['progs'])} shows")
     for label, url in SOURCES:
         read_source(chans, label, url, now)
     # A second feed of a channel shares the first one's listings.
