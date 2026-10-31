@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+30#!/usr/bin/env python3
 """Build guide.json for the Cable apps: what's on now and next on each channel.
 
 Reads channels.txt ("number|name shown|playlist name|pluto id|guide id"), downloads free
