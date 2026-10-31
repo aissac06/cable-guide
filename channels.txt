@@ -51,12 +51,12 @@
 65|BET|BET|5ca670f6593a5d78f0e85aed|
 66|MTV|MTV|5ca672f515a62078d2ec0ad2|
 67|MTV (2nd feed)|MTV||
-68|MTV2|MTV2||
+68|MTV2|MTV2||tvinsider:mtv2
 69|MTV Live|MTV Live||
 70|MTV Biggest Pop|MTV Biggest Pop|5d14fd1a252d35decbc4080c|
 71|CMT|CMT|5f68f53eb1e5800007390bf8|
 72|Game Show Central|Game Show Central|5e54187aae660e00093561d6|
-73|Reelz|Reelz||
+73|Reelz|Reelz||tvinsider:reelz
 74|TCM|TCM||
 75|Paramount Movie Channel|Paramount Movie Channel|5cb0cae7a461406ffe3f5213|
 76|Paramount+ Picks|Paramount+ Picks|5ff8c708653d080007361b14|
@@ -69,7 +69,7 @@
 83|Nat Geo Wild|National Geographic Wild HD East||
 84|Smithsonian Channel|Smithsonian Channel|5f21ea08007a49000762d349|
 85|Investigation Discovery|Investigation Discovery||
-86|HGTV|HGTV||
+86|HGTV|HGTV||tvinsider:hgtv
 87|Food Network|Food Network||
 88|Cooking Channel|Cooking Channel||
 89|BBC Food|BBC Food||
