@@ -8,7 +8,7 @@
 16|DC Network|DC Network (DCN)||
 19|Access 19|Access 19 Montgomery||
 22|Create (MPT)|Create (Maryland Public TV)||
-23|ION Plus|ION Plus||
+23|ION Plus|ION Plus||tvinsider:ion-plus
 24|Grit Xtra|Grit Xtra||
 25|Bounce XL|Bounce XL||
 27|Charge!|Charge!||
@@ -50,7 +50,7 @@
 64|TV Land Sitcoms|TV Land Sitcoms|5c2d64ffbdf11b71587184b8|
 65|BET|BET|5ca670f6593a5d78f0e85aed|
 66|MTV|MTV|5ca672f515a62078d2ec0ad2|
-67|MTV (2nd feed)|MTV||
+67|MTV (2nd feed)|MTV||tvinsider:mtv
 68|MTV2|MTV2||tvinsider:mtv2
 69|MTV Live|MTV Live||
 70|MTV Biggest Pop|MTV Biggest Pop|5d14fd1a252d35decbc4080c|
@@ -109,4 +109,4 @@
 230|Starz West|Starz West||
 231|Starz Cinema|Starz Cinema||
 232|Starz Comedy|Starz Comedy||
-233|Starz Kids & Family|Starz Kids & Family||
+233|Starz Kids & Family|Starz Kids & Family||tvinsider:starz-kids-family
