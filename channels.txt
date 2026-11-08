@@ -111,3 +111,4 @@
 232|Starz Comedy|Starz Comedy||
 233|Starz Kids & Family|Starz Kids & Family||tvinsider:starz-kids-family
 disney-channel|Disney Channel|Disney Channel||
+pbs-retro|PBS Retro|PBS Retro||
