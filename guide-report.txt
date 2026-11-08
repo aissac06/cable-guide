@@ -62,7 +62,7 @@
   77  Discovery Channel            us: Discovery.Channel.HD.us2   now: In the Eye of the Storm
   78  Animal Planet                us: Animal.Planet.HD.us2   now: Yellowstone Wardens
   79  History                      us: History.HD.us2   now: American Pickers
-  80  History (2nd feed)           pluto: 5a4d35dfa5c02e717a234f86   now: 101 Events That Made the 20th Century
+  80  History (2nd feed)           pluto: 5a4d35dfa5c02e717a234f86   now: Battlefront: WWII Road To Victory
   81  National Geographic          us: National.Geographic.HD.us2   now: To Catch a Smuggler
   82  National Geographic East     us: National.Geographic.HD.us2   now: To Catch a Smuggler
   83  Nat Geo Wild                 us: National.Geographic.Wild.HD.us2   now: Life Below Zero
@@ -77,7 +77,7 @@
   92  Nick Jr.                     pluto: 5ca6748a37b88b269472dad9   now: Bubble Guppies
   93  Nicktoons                    us: Nicktoons.us2   now: SpongeBob SquarePants
   94  TeenNick                     us: Teen.Nick.us2   now: Henry Danger
-  95  Disney Junior                us: Disney.Junior.HD.us2   now: Sofia the First: Royal Magic
+  95  Disney Junior                us: Disney.Junior.HD.us2   now: Mickey Mouse Clubhouse+
   96  Disney XD                    us: Disney.XD.HD.us2   now: Miraculous World, Tokyo: Stellar Force
   97  Cartoon Network              us: Cartoon.Network.HD.us2   now: Bob's Burgers
   98  Boomerang                    us: Boomerang.us2   now: The Scooby-Doo Show
@@ -101,12 +101,13 @@
  124  EWTN en Español              NOT FOUND
  200  HBO                          us: HBO.East.us2   now: Love, Simon
  201  HBO Hits                     us: HBO.Hits.us2   now: Jurassic World: Fallen Kingdom
- 210  Cinemax West                 us: Cinemax.HD.(Pacific).us2   now: Ocean's 11
+ 210  Cinemax West                 us: Cinemax.HD.(Pacific).us2   now: Ocean's Eleven
  211  Cinemax Hits                 us: Cinemax.Hits.us2   now: The Judge
  212  Cinemax Classics             us: Cinemax.Classics.us2   now: Contagion
  220  Showtime Family Zone         us: Showtime.Familyzone.HD.us2   now: The Honeymooners
  230  Starz West                   us: Starz.HD.(Pacific).us2   now: Enough
- 231  Starz Cinema                 us: Starz.Cinema.HD.us2   now: Premium
+ 231  Starz Cinema                 us: Starz.Cinema.HD.us2   now: Ingenious
  232  Starz Comedy                 us: Starz.Comedy.HD.us2   now: Barefoot
  233  Starz Kids & Family          tvinsider: starz-kids-family   now: Wiener Dog Internationals
 disney-channel  Disney Channel               us: Disney.Channel.HD.us2   now: Big City Greens
+pbs-retro  PBS Retro                    NOT FOUND
