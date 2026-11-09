@@ -113,3 +113,4 @@
 disney-channel|Disney Channel|Disney Channel||
 pbs-retro|PBS Retro|PBS Retro||
 pluto-90s-kids|90's Kids|90's Kids||
+pluto-90s-kids-2|90s Kids TV 2|90s Kids TV 2|6452c77ed3fdde00080eb3a8|
