@@ -111,6 +111,6 @@
 232|Starz Comedy|Starz Comedy||
 233|Starz Kids & Family|Starz Kids & Family||tvinsider:starz-kids-family
 disney-channel|Disney Channel|Disney Channel||
-pbs-retro|PBS Retro|PBS Retro||
+pbs-retro|PBS Retro|PBS Retro|roku:34335ef32c02519d897664a78767cc59|
 pluto-90s-kids|90's Kids|90's Kids||
 pluto-90s-kids-2|90s Kids TV 2|90s Kids TV 2|6452c77ed3fdde00080eb3a8|
