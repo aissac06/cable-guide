@@ -105,11 +105,11 @@
  211  Cinemax Hits                 us: Cinemax.Hits.us2   now: MacGruber
  212  Cinemax Classics             us: Cinemax.Classics.us2   now: Lord of the Flies
  220  Showtime Family Zone         us: Showtime.Familyzone.HD.us2   now: The Terminal
- 230  Starz West                   us: Starz.HD.(Pacific).us2   now: Outlander: Blood of my Blood
+ 230  Starz West                   us: Starz.HD.(Pacific).us2   now: S.W.A.T. Exiles
  231  Starz Cinema                 us: Starz.Cinema.HD.us2   now: The Promise
  232  Starz Comedy                 us: Starz.Comedy.HD.us2   now: The Young and Prodigious T.S. Spivet
  233  Starz Kids & Family          tvinsider: starz-kids-family   now: The Legend of Catclaws Mountain
 disney-channel  Disney Channel               us: Disney.Channel.HD.us2   now: Bluey
-pbs-retro  PBS Retro                    NOT FOUND
+pbs-retro  PBS Retro                    roku: 34335ef32c02519d897664a78767cc59   now: The Berenstain Bears
 pluto-90s-kids  90's Kids                    pluto: 6452c814939a590008567a3b   now: Rugrats
 pluto-90s-kids-2  90s Kids TV 2                pluto: 6452c77ed3fdde00080eb3a8   now: Drake and Josh
