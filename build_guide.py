@@ -188,6 +188,33 @@ def read_source(chans, label, url, now):
         want = pick(chans, label, names_by_id)
     print(f"  {label}: {len(names_by_id)} channels listed, matched {len(want)}, {count} shows")
 
+def roku(cid, now):
+    """Schedule for a Roku Channel live channel (e.g. PBS Retro), from the schedule The Roku Channel's own
+    web page shows. It only covers the next few hours, so the guide is rebuilt every hour."""
+    from urllib.parse import quote
+    inner = f"https://content.sr.roku.com/content/v1/roku-trc/{cid}?featureInclude=linearSchedule"
+    url = "https://therokuchannel.roku.com/api/v2/homescreen/content/" + quote(inner, safe="")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                                   "(KHTML, like Gecko) Chrome/126.0 Safari/537.36", "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            data = json.loads(r.read().decode("utf-8", "replace"))
+    except Exception as e:
+        print(f"  roku {cid}: could not download ({e})")
+        return []
+    out = []
+    for e in (data.get("features") or {}).get("linearSchedule") or []:
+        start = int(e.get("start") or 0)
+        end = int(e.get("end") or (start + int(e.get("duration") or 0)))
+        if not start or end <= start:
+            continue
+        ct = e.get("content") or {}
+        series = ((ct.get("series") or {}).get("title") or "").strip()
+        title = (ct.get("title") or "").strip()
+        out.append([start, end, series or title or "PBS Retro", title if series and title != series else ""])
+    lo, hi = now - BACK, now + AHEAD
+    return [p for p in sorted(out) if p[1] > lo and p[0] < hi]
+
 def main():
     chans = load_channels(sys.argv[1] if len(sys.argv) > 1 else "channels.txt")
     now = int(time.time())
@@ -200,6 +227,13 @@ def main():
             if c["progs"]:
                 c["match"] = ("tvinsider", slug)
             print(f"  tvinsider {slug}: {len(c['progs'])} shows")
+        # Channels marked "roku:<content id>" take their listings from The Roku Channel's own schedule.
+        if c["gid"].lower().startswith("roku:"):
+            rid = c["gid"].split(":", 1)[1].strip()
+            c["progs"] = roku(rid, now)
+            if c["progs"]:
+                c["match"] = ("roku", rid)
+            print(f"  roku {rid}: {len(c['progs'])} shows")
     for label, url in SOURCES:
         read_source(chans, label, url, now)
     # A second feed of a channel shares the first one's listings.
